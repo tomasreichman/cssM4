@@ -1,0 +1,75 @@
+nav{
+    display: flex;
+    background-color: #FFE4C4;
+    font-size: 20px;
+    color: #000000;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid;
+}
+
+nav a:focus{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid;
+}
+
+body{
+    background-color: #FFFFF0;
+}
+
+.img1{
+    float: right;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+.img2{
+    float: left;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+}
+
+#mainPhoto1{
+padding-top: 50px;
+padding-right: 160px;
+padding-left: 70px;
+}
+
+#mainPhoto2{
+    padding-right: 150px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix p{
+    padding-top: 60px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.skip-link {
+    position: absolute;
+    bottom: -1000px;
+    left: -1000px;
+    background-color: #FFE4C4;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.skip-link:focus {
+    position: static;
+    bottom: auto; 
+    left: auto; 
+    display: inline-block; 
+    margin-left: 43%;
+}
